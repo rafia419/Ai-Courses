@@ -54,7 +54,8 @@ No extra installation is required.
 
 ### 🖼️ Screenshots
 
-![Rock-Paper-Scissors](images/Rock_Paper_Sessior.png)
+![Rock-Paper-Scissors](../images/Rock_Paper_Sessior.png)
+
 
 
 ### 📊 Features

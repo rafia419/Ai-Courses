@@ -47,7 +47,8 @@ No extra installation is required.
 
 **🖼️ Screenshots**
 
-[Tic Tac Toe](images/Tic_Tac_Toe.png)
+![Tic Tac Toe](../images/Tic_Tac_Toe.png)
+
 
 
 **📊 Features**

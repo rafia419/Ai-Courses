@@ -62,7 +62,7 @@ AI Difficulty is determined by search depth; higher depth = stronger AI
 
 
 ### 🖼️ Screenshots
-![Chess Game](images/Chess.png)
+![Chess Game](../images/Chess.png)
 
 
 
