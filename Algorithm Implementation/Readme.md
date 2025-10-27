@@ -11,7 +11,7 @@ BFS explores all the neighbor nodes at the current depth before moving on to the
 
 **Time Complexity:** O(V + E)
 **Space Complexity:** O(V)
-![BFS](<Algorithm Implementation/images/BFS output.png>)
+![BFS](<C:\Users\Lenovo\Desktop\AI Course\Algorithm Implementation\images\BFS output.png>)
 
 
 
