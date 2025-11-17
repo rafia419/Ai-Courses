@@ -247,7 +247,8 @@ It’s auto-generated.
 
 ## 🖼 Sample Screenshots
 
-![Agent Running](screenshots/agent_run.png)
+![Agent Running1](screenshots/agent_run1.png)
+![Agent Running2](screenshots/agent_run2.png)
 ![Saved Output](screenshots/saved_output.png)
 
 
@@ -268,6 +269,7 @@ A custom tool:
 
 ## ✔ Example Output Stored
 --- Research Output ---
+
 Timestamp: 2025-11-17 14:22:15
 
 {
