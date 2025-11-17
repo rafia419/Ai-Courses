@@ -11,6 +11,8 @@ BFS explores all the neighbor nodes at the current depth before moving on to the
 
 **Time Complexity:** O(V + E)
 **Space Complexity:** O(V)
+
+### Screenshot
 ![BFS](<images/BFS output.png>)
 
 
@@ -29,6 +31,8 @@ DFS explores as far as possible along each branch before backtracking. It uses a
 
 **Time Complexity:** O(V + E)
 **Space Complexity:** O(V)
+
+### Screenshot
 ![DFS](<images/DFS output.png>)
 
 
@@ -46,6 +50,8 @@ Bidirectional search runs two simultaneous searches — one forward from the sta
 **Time Complexity:** O(b^(d/2))
 **Space Complexity:** O(b^(d/2))
 (where b = branching factor, d = depth of solution)
+
+### Screenshot
 ![Bidirectional-Search](<images/Bidirectional Search Output.png>)
 
 
@@ -61,6 +67,8 @@ DLS is a variation of DFS where the search is limited to a specific depth level.
 
 **Time Complexity:** O(b^l) (where l = depth limit)
 **Space Complexity:** O(b * l)
+
+### Screenshot
 ![Depth-Limited-Search](<images/Depth Limited Search Output.png>)
 
 
@@ -76,6 +84,8 @@ IDS repeatedly runs Depth-Limited Search (DLS) with increasing depth limits (1, 
 
 **Time Complexity:** O(b^d)
 **Space Complexity:** O(b * d)
+
+### Screenshot 
 ![Iterative-deppening-search](<images/Iterativ Deepening Search Output.png>)
 
 
@@ -94,6 +104,8 @@ This algorithm selects the next node to explore based on a heuristic function th
 **Time Complexity:** O(b^m)
 **Space Complexity:** O(b^m)
 (where m = maximum depth of the search space)
+
+### Screenshot 
 ![Best-First-Search](images/Best_first_search_output.png)
 
 
@@ -112,6 +124,7 @@ Beam Search is a heuristic search that expands only the best k nodes at each lev
 **Time Complexity:** O(b * d) approximately (depends on beam width)
 **Space Complexity:** O(b * d)
 
+### Screenshot 
 ![Beam-Search](images/Beam_search_Output.png)
 
 
@@ -130,6 +143,7 @@ A* combines cost from the start (g) and estimated cost to goal (h) in the formul
 **Time Complexity:** O(b^d) (depends on heuristic quality)
 **Space Complexity:** O(b^d)
 
+### Screenshot
 ![A-Star-Search](images/A_Star_Search_Output1.png)
 
 ![A-Star-Search](images/A_Star_Search_Output2.png)
@@ -149,6 +163,7 @@ Used in two-player games, Min-Max assumes both players play optimally. The algor
 **Time Complexity:** O(b^m)
 **Space Complexity:** O(b * m)
 
+### Screenshot
 ![Min-Max-Search](images/Min-Max-Output.png)
 
 
@@ -165,4 +180,5 @@ This is an optimization of Min-Max, which prunes branches that cannot possibly a
 **Time Complexity:** O(b^(m/2)) (with perfect ordering)
 **Space Complexity:** O(b * m)
 
+### Screenshot
 ![Alpha-Beta-Search-Algorithm](images/Alpha-Beta-Output.png)

@@ -231,10 +231,10 @@ All research summaries are appended to:
 py311_env/ is a **virtual environment**.
 We use it because:
 
-✔ Keeps dependencies isolated
-✔ Prevents version conflicts
-✔ Ensures project reproducibility
-✔ Makes deployment easier
+- ✔ Keeps dependencies isolated
+- ✔ Prevents version conflicts
+- ✔ Ensures project reproducibility
+- ✔ Makes deployment easier
 
 Never delete it unless recreating the environment.
 
