@@ -111,6 +111,7 @@ Beam Search is a heuristic search that expands only the best k nodes at each lev
 
 **Time Complexity:** O(b * d) approximately (depends on beam width)
 **Space Complexity:** O(b * d)
+
 ![Beam-Search](images/Beam_search_Output.png)
 
 
@@ -128,7 +129,9 @@ A* combines cost from the start (g) and estimated cost to goal (h) in the formul
 
 **Time Complexity:** O(b^d) (depends on heuristic quality)
 **Space Complexity:** O(b^d)
+
 ![A-Star-Search](images/A_Star_Search_Output1.png)
+
 ![A-Star-Search](images/A_Star_Search_Output2.png)
 
 
@@ -145,6 +148,7 @@ Used in two-player games, Min-Max assumes both players play optimally. The algor
 
 **Time Complexity:** O(b^m)
 **Space Complexity:** O(b * m)
+
 ![Min-Max-Search](images/Min-Max-Output.png)
 
 
@@ -160,4 +164,5 @@ This is an optimization of Min-Max, which prunes branches that cannot possibly a
 
 **Time Complexity:** O(b^(m/2)) (with perfect ordering)
 **Space Complexity:** O(b * m)
+
 ![Alpha-Beta-Search-Algorithm](images/Alpha-Beta-Output.png)
